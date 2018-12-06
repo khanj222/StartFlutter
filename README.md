@@ -9,7 +9,11 @@
 - [Chapter 2: Dart Basics](#dart-basics)
 - [Chapter 3: Flutter Development](#flutter-development)
 - [Chapter 4: Flutter Test and Release](#flutter-test-and-release)
-- [Chapter 5: Appendix](#appendix)
+- [Chapter 5: Flutter Tips](#flutter-tips)
+  - [Flutter and iOS](#flutter-and-ios)
+  - [Flutter and Android](#flutter-and-android)
+  - [Flutter and Web](#flutter-and-web)
+- [Chapter 6: Appendix](#appendix)
   - [Libraries](#libraries)
   - [References](#references)
   - [Key News](#key-news)
@@ -29,6 +33,11 @@
 ## Flutter Development
 
 ## Flutter Test and Release
+
+## Flutter Tips
+### Flutter and iOS
+### Flutter and Android
+### Flutter and Web
 
 ## Appendix
 ### Libraries
