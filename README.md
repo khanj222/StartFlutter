@@ -1,4 +1,4 @@
-# 스타트 플러터
+스타트 플러터
 ## 목차
 - [Chapter 0: 책 소개](#책-소개)
   - [머리말](#머리말)
@@ -30,7 +30,18 @@
 
 ## 헬로 플러터
 ### 플러터 소개
+
+
 ### 설치
+### MacOS
+- 먼저, [Version 1.0 다운로드 링크](https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_v1.0.0-stable.zip)를 통해 zip 파일을 다운 받습니다.
+- 다운받은 zip파일 압축을 해제한 후 `~/Library/` 폴더로 옮깁니다.
+- 터미널에서 flutter 폴더를 path에 추가합니다. 
+```bash
+export PATH=$PATH:~/Library/flutter/bin
+```
+
+
 ### 개발환경
 
 ## 다트
