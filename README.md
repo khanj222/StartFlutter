@@ -33,12 +33,17 @@
 
 ## 설치
 ### MacOS
-#### 1. 먼저, [Version 1.0 다운로드 링크](https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_v1.0.0-stable.zip)를 통해 zip 파일을 다운 받습니다.
-#### 2. 다운받은 zip파일 압축을 해제한 후 `~/Library/` 폴더로 옮깁니다.
-#### 3. 터미널에서 flutter 폴더를 path에 추가합니다. 
+#### 플러터 SDK 설치하기
+1. [Flutter SDK v1.0 다운로드 링크](https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_v1.0.0-stable.zip)를 통해 zip 파일을 다운받습니다. <br><br>
+2. 다운받은 zip파일 압축을 해제한 후 `~/Library/` 폴더로 옮깁니다. <br><br>
+3. 터미널에서 flutter 폴더를 path에 추가합니다. 
 ```bash
 export PATH=$PATH:~/Library/flutter/bin
 ```
+#### Flutter Docter로 세팅하기
+플러터에 필요한 Dependency들이 설치되어있는지, 그리고 경로들이 잘 설정되어있는지 확인 해야합니다.
+1. 터미널에 `flutter doctor`를 입력해서 실행합니다. <br><br>
+2. 개발하려는 플랫폼이(iOS / Android) 조건이 테스트에 패스되는지 확인해주세요. 만약 환경설정에 문제가있다면, 자신의 환경설정 상황에 맞게 flutter doctor가 해결방법을 알려줍니다.
 
 ## 개발환경
 
